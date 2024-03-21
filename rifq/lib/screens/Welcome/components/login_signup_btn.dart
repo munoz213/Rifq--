@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../constants.dart';
 import '../../onboarding_screen/onboarding_screen.dart';
-import '../../Signup/signup_screen.dart';
 
 class getstartedBtn extends StatelessWidget {
   const getstartedBtn({
