@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../../../components/already_have_an_account_acheck.dart';
 import '../../../constants.dart';
 import '../../Signup/signup_screen.dart';
+import '../../email_sent/email_sent_screen.dart';
 
 class ResetPasswordForm extends StatelessWidget {
   const ResetPasswordForm({
@@ -33,7 +34,16 @@ class ResetPasswordForm extends StatelessWidget {
           ),
           const SizedBox(height: defaultPadding * 1.5),
           ElevatedButton(
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) {
+                    return const EmailSentScreen();
+                  },
+                ),
+              );
+            },
             child: Text(
               "Send".toUpperCase(),
             ),
