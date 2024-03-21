@@ -1,3 +1,0 @@
-# Rifq--
-Welcome to our innovative solution for addressing the stray animal crisis in Algeria. Our application serves as a comprehensive platform connecting citizens, shelters, and veterinarians to effectively manage stray animal encounters. Through our user-friendly interface, citizens can report stray animals, triggering prompt response from nearby shelters or facilitating volunteer intervention. By streamlining communication and coordination, we aim to mitigate the risks associated with stray animals, ensuring the safety and well-being of both animals and citizens. Join us in making a positive impact on our communities and fostering a more compassionate society.
-
