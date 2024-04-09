@@ -71,8 +71,8 @@ class TabBarPage extends StatelessWidget {
 
   Widget _createBody(BuildContext context, int index) {
     final children = [
-      HomePage(),
       SettingsScreen(),
+      HomePage(),
       SettingsScreen(),
       SettingsScreen()
       // Scaffold(
