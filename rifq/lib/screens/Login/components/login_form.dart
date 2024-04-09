@@ -4,6 +4,7 @@ import '../../../components/already_have_an_account_acheck.dart';
 import '../../../constants.dart';
 import '../../Signup/signup_screen.dart';
 import '../../reset_password/reset_password_screen.dart';
+import '../../tab_bar/page/tab_bar_page.dart';
 
 class LoginForm extends StatelessWidget {
   const LoginForm({
@@ -77,7 +78,10 @@ class LoginForm extends StatelessWidget {
           ),
           const SizedBox(height: defaultPadding * 4),
           ElevatedButton(
-            onPressed: () {},
+            onPressed: () {
+              Navigator.of(context).pushReplacement(
+                  MaterialPageRoute(builder: (_) => TabBarPage()));
+            },
             child: Text(
               "Login".toUpperCase(),
             ),
